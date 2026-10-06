@@ -63,6 +63,15 @@ def Bai08():
     del student["major"]
     print(student)
     
+def Bai09():
+    n = int(input("Enter an integer: "))
+    
+    if n > 0:
+        print("Số dương")
+    elif n < 0:
+        print("Số âm")
+    else: 
+        print("Số không")
 
 # Bai01()
 # Bai02()
@@ -71,4 +80,5 @@ def Bai08():
 # Bai05()
 # Bai06()
 # Bai07()
-Bai08()
+# Bai08()
+# Bai09()
