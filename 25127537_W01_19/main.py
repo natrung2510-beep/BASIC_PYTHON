@@ -34,8 +34,18 @@ def Bai05():
     nations[1] = "Thái Lan"
     del nations[0]
     print(nations)
+    
+def Bai06():
+    #tên, tuổi, nghề nghiệp, thành phố.
+    person = ("Nguyen Anh Trung", 19, "unemployed", "HCM")
+    name, age, job, city = person
+    print(name)
+    print(age)
+    print(job)
+    print(city)
 # Bai01()
 # Bai02()
 # Bai03()
 # Bai04()
 # Bai05()
+Bai06()
