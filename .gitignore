@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files (File cache biên dịch của Python)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging (Nếu sau này có đóng gói thư viện)
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments (Môi trường ảo của Python - rất quan trọng cần bỏ qua)
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints (Nếu sau này dùng file .ipynb)
+.ipynb_checkpoints
+
+# VS Code settings & workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Hệ điều hành Windows & macOS sinh ra
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# File log và biến môi trường chứa thông tin bảo mật
+*.log
+.env
+.env.local
