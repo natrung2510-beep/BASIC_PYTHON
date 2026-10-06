@@ -72,6 +72,14 @@ def Bai09():
         print("Số âm")
     else: 
         print("Số không")
+        
+def Bai10():
+    for i in range(1,11):
+        print(i)
+        
+    for j in range(1,11):
+        if j % 2 == 0:
+            print(j)
 
 # Bai01()
 # Bai02()
@@ -82,3 +90,4 @@ def Bai09():
 # Bai07()
 # Bai08()
 # Bai09()
+# Bai10()
