@@ -43,9 +43,16 @@ def Bai06():
     print(age)
     print(job)
     print(city)
+    
+def Bai07():
+    ls = [1, 2, 2, 3, 4, 4, 5]
+    s = set(ls)
+    s.add(6)
+    print(s)
 # Bai01()
 # Bai02()
 # Bai03()
 # Bai04()
 # Bai05()
-Bai06()
+# Bai06()
+# Bai07()
