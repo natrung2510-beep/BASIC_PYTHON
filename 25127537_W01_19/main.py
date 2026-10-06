@@ -49,6 +49,21 @@ def Bai07():
     s = set(ls)
     s.add(6)
     print(s)
+    
+def Bai08():
+    student = {
+    "name": "An",
+    "age": 21,
+    "major": "Computer Science",
+    }
+    
+    print(student["name"])
+    student["age"] = 22
+    student.update({"GPA": 3.5})
+    del student["major"]
+    print(student)
+    
+
 # Bai01()
 # Bai02()
 # Bai03()
@@ -56,3 +71,4 @@ def Bai07():
 # Bai05()
 # Bai06()
 # Bai07()
+Bai08()
