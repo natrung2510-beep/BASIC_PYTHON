@@ -20,7 +20,13 @@ def Bai03():
     print(s[::-1])
     # print("".join(reversed(s)))
     
-
+def Bai04():
+    s = "PythonProgramming"
+    s1 = s[:6] # Lấy 6 kí tự đầu tiên s[0:6]
+    s2 = s[-8:]
+    s3 = s1 + s2 
+    print(s3)
 # Bai01()
 # Bai02()
 # Bai03()
+Bai04()
