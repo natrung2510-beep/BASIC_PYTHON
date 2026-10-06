@@ -26,7 +26,16 @@ def Bai04():
     s2 = s[-8:]
     s3 = s1 + s2 
     print(s3)
+    
+def Bai05():
+    nations = ["Việt Nam", "Mỹ", "Ấn Độ", "Trung Quốc", "Lào"]
+    print(nations[2])
+    nations.append("Campuchia")
+    nations[1] = "Thái Lan"
+    del nations[0]
+    print(nations)
 # Bai01()
 # Bai02()
 # Bai03()
-Bai04()
+# Bai04()
+# Bai05()
