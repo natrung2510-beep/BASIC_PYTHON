@@ -113,8 +113,12 @@ def Bai13():
     age = 19
     greet(name, age)
 
+def describe_person(*args, **kwargs):
+    print("Sở thích:", args)
+    print("Thông tin:", kwargs)
+    
 def Bai14():
-    print()
+    describe_person("Đá bóng", "Nghe nhạc", name="Trung", age=19, city="HCM")
 
 def Bai15():
     print()
@@ -146,7 +150,7 @@ def Bai19():
 # Bai11()
 # Bai12()
 # Bai13()
-# Bai14()
+Bai14()
 # Bai15()
 # Bai16()
 # Bai17()
