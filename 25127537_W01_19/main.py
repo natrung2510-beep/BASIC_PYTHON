@@ -145,7 +145,16 @@ def Bai17():
             print(line, end="")
 
 def Bai18():
-    print()
+    try:
+        a = float(input("Nhập số chia: "))
+        b = float(input("Nhập số bị chia: "))
+    
+        res = a / b
+        print(f"Kết quả của {a} : {b} là {res}")
+    except ValueError:
+        print("Lỗi: Dữ liệu nhập vào không phải là số hợp lệ!")
+    except ZeroDivisionError:
+        print("Lỗi: Không thể chia cho số 0!")
 
 def Bai19():
     print()
@@ -168,6 +177,6 @@ def Bai19():
 # Bai14()
 # Bai15()
 # Bai16()
-Bai17()
-# Bai18()
+# Bai17()
+Bai18()
 # Bai19()
