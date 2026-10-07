@@ -1,3 +1,6 @@
+ 
+import math
+
 def Bai01():
     myName = "Nguyen Anh Trung"
     print("Hello, world!")
@@ -131,7 +134,10 @@ def Bai15():
     print(n, "! =", res)
 
 def Bai16():
-    print()
+    x = int(input("Enter an integer: "))
+    square_root = math.sqrt(x)
+    print(f"sqrt({x})= {square_root}")
+    print(f"ceiling sqrt({x})= {math.ceil(square_root)}")
     
 def Bai17():
     print()
@@ -158,8 +164,8 @@ def Bai19():
 # Bai12()
 # Bai13()
 # Bai14()
-Bai15()
-# Bai16()
+# Bai15()
+Bai16()
 # Bai17()
 # Bai18()
 # Bai19()
