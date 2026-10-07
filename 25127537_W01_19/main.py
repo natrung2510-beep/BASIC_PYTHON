@@ -106,8 +106,12 @@ def Bai12():
     print(squares)
 
 
+def greet(name, age):
+    print(f"Xin chào {name}, bạn {age} tuổi.")
 def Bai13():
-    print()
+    name = "Trung"
+    age = 19
+    greet(name, age)
 
 def Bai14():
     print()
@@ -140,7 +144,7 @@ def Bai19():
 # Bai09()
 # Bai10()
 # Bai11()
-Bai12()
+# Bai12()
 # Bai13()
 # Bai14()
 # Bai15()
