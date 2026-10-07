@@ -140,7 +140,9 @@ def Bai16():
     print(f"ceiling sqrt({x})= {math.ceil(square_root)}")
     
 def Bai17():
-    print()
+    with open("data.txt", "r", encoding="utf-8") as f:
+        for line in f:
+            print(line, end="")
 
 def Bai18():
     print()
@@ -165,7 +167,7 @@ def Bai19():
 # Bai13()
 # Bai14()
 # Bai15()
-Bai16()
-# Bai17()
+# Bai16()
+Bai17()
 # Bai18()
 # Bai19()
