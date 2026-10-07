@@ -1,5 +1,6 @@
  
 import math
+import json
 
 def Bai01():
     myName = "Nguyen Anh Trung"
@@ -157,7 +158,16 @@ def Bai18():
         print("Lỗi: Không thể chia cho số 0!")
 
 def Bai19():
-    print()
+    json_str = '{"name": "Mai", "age": 25, "city": "Hanoi"}'
+    # 1. Chuyển chuỗi JSON thành Dictionary bằng json.loads
+    person_dict = json.loads(json_str)
+    
+    print(f'Tên: {person_dict["name"]}')
+    print(f'Tuổi: {person_dict["age"]}')
+    print(f'Thành phố: {person_dict["city"]}')
+    
+    new_json_str = json.dumps(person_dict)
+    print("Chuỗi JSON sau khi chuyển đổi:", new_json_str)
 
 
 
@@ -178,5 +188,5 @@ def Bai19():
 # Bai15()
 # Bai16()
 # Bai17()
-Bai18()
-# Bai19()
+# Bai18()
+Bai19()
