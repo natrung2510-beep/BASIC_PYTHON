@@ -80,6 +80,42 @@ def Bai10():
     for j in range(1,11):
         if j % 2 == 0:
             print(j)
+            
+def Bai11():
+    n = int(input("Enter an integer: "))
+    i = 1
+    sum = 0
+    while i <= n:
+        sum += i
+        i += 1
+    print(sum)
+
+def Bai12():
+    print()
+
+
+def Bai13():
+    print()
+
+def Bai14():
+    print()
+
+def Bai15():
+    print()
+
+def Bai16():
+    print()
+    
+def Bai17():
+    print()
+
+def Bai18():
+    print()
+
+def Bai19():
+    print()
+
+
 
 # Bai01()
 # Bai02()
@@ -91,3 +127,12 @@ def Bai10():
 # Bai08()
 # Bai09()
 # Bai10()
+Bai11()
+# Bai12()
+# Bai13()
+# Bai14()
+# Bai15()
+# Bai16()
+# Bai17()
+# Bai18()
+# Bai19()
