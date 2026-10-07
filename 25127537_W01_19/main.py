@@ -91,7 +91,19 @@ def Bai11():
     print(sum)
 
 def Bai12():
-    print()
+    ls = [1,2,3,4,5,6,7,8,9,10]
+    # squares = []
+    # for x in range(1, 11):
+    #     squares.append(x**2)
+    
+    # [biểu_thức for phần_tử in tập_hợp]
+    evens = []
+    for i in ls:
+        if i % 2 == 0:
+            evens.append(i)
+            
+    squares = [x**2 for x in evens]
+    print(squares)
 
 
 def Bai13():
@@ -127,8 +139,8 @@ def Bai19():
 # Bai08()
 # Bai09()
 # Bai10()
-Bai11()
-# Bai12()
+# Bai11()
+Bai12()
 # Bai13()
 # Bai14()
 # Bai15()
