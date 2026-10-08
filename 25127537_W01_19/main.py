@@ -88,11 +88,11 @@ def Bai10():
 def Bai11():
     n = int(input("Enter an integer: "))
     i = 1
-    sum = 0
+    total = 0
     while i <= n:
-        sum += i
+        total += i
         i += 1
-    print(sum)
+    print(total)
 
 def Bai12():
     ls = [1,2,3,4,5,6,7,8,9,10]
@@ -101,12 +101,7 @@ def Bai12():
     #     squares.append(x**2)
     
     # [biểu_thức for phần_tử in tập_hợp]
-    evens = []
-    for i in ls:
-        if i % 2 == 0:
-            evens.append(i)
-            
-    squares = [x**2 for x in evens]
+    squares = [x**2 for x in ls if x % 2 == 0]
     print(squares)
 
 
@@ -135,20 +130,26 @@ def Bai15():
     print(n, "! =", res)
 
 def Bai16():
-    x = int(input("Enter an integer: "))
+    x = float(input("Enter a number: "))
     square_root = math.sqrt(x)
     print(f"sqrt({x})= {square_root}")
-    print(f"ceiling sqrt({x})= {math.ceil(square_root)}")
+    print(f"ceiling {x}= {math.ceil(x)}")
     
 def Bai17():
+    names = ["An", "Bình", "Cường", "Dũng", "Huy"]
+    with open("data.txt", "w", encoding="utf-8") as f:
+        for name in names:
+            f.write(name + "\n")
+
+
     with open("data.txt", "r", encoding="utf-8") as f:
         for line in f:
             print(line, end="")
 
 def Bai18():
     try:
-        a = float(input("Nhập số chia: "))
-        b = float(input("Nhập số bị chia: "))
+        a = float(input("Nhập số bị chia: "))
+        b = float(input("Nhập số chia: "))
     
         res = a / b
         print(f"Kết quả của {a} : {b} là {res}")
@@ -189,4 +190,4 @@ def Bai19():
 # Bai16()
 # Bai17()
 # Bai18()
-Bai19()
+# Bai19()
